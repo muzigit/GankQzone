@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.youth.banner.Banner xmlns:android="http://schemas.android.com/apk/res/android"
+                         xmlns:app="http://schemas.android.com/apk/res-auto"
+                         android:id="@+id/banner"
+                         android:layout_width="match_parent"
+                         android:layout_height="240dp"
+                         app:indicator_height="4dp"
+                         app:indicator_width="10dp"
+                         app:title_background="#555CB85C"
+                         app:title_textsize="10sp"
+                         app:indicator_drawable_selected="@color/theme"
+                         app:indicator_drawable_unselected="@android:color/white"
+                         app:banner_default_image="@mipmap/ic_launcher">
+
+</com.youth.banner.Banner>

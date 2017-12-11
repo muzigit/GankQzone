@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <!--导航条-->
+    <!--矩形指示器-->
+    <!--<com.flyco.tablayout.SlidingTabLayout-->
+        <!--android:id="@+id/slidingTabLayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:background="@color/theme"-->
+        <!--android:paddingLeft="5dp"-->
+        <!--android:paddingRight="5dp"-->
+        <!--app:tl_indicator_color="#393E46"-->
+        <!--app:tl_indicator_corner_radius="5dp"-->
+        <!--app:tl_indicator_margin_left="2dp"-->
+        <!--app:tl_indicator_margin_right="2dp"-->
+        <!--app:tl_indicator_style="TRIANGLE"/>-->
+
+    <!--三角形指示器-->
+    <!--<com.flyco.tablayout.SlidingTabLayout-->
+        <!--android:id="@+id/slidingTabLayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:background="@color/theme"-->
+        <!--android:paddingLeft="5dp"-->
+        <!--android:paddingRight="5dp"-->
+        <!--app:tl_indicator_color="#eeeeee"-->
+        <!--app:tl_indicator_style="TRIANGLE"/>-->
+
+    <com.flyco.tablayout.SlidingTabLayout
+        android:id="@+id/slidingTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/theme"
+        app:tl_textAllCaps="true"
+        app:tl_indicator_width="20dp"
+        app:tl_textsize="14sp"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
